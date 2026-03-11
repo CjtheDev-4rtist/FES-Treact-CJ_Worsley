@@ -35,7 +35,16 @@ li{
     width: 100%;
     display: flex;
     align-items: center;
-    max-width: 1280px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Unique__Row{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -56,6 +65,7 @@ nav{
     display: flex;
     height: 120px;
     width: 100vw;
+    padding: 0 48px; 
 }
 
 
@@ -115,6 +125,8 @@ nav{
     font-size: 24px;
 }
 
+
+
 /*Home Styles*/
 
 #Home{
@@ -142,7 +154,7 @@ nav{
     color: #243E63;
     margin-top: 32px;
     line-height: 28px;
-    max-width: 90%;
+    max-width: 95%;
 }
 
 .Home--Subscript{
@@ -156,7 +168,7 @@ nav{
 input[type="email"]{
     padding: 22px 16px;
     font-size: 16px;
-    width: 73%;
+    width: 83%;
     border-radius: 32px;
     border: 2px solid #a0aec06e;
     margin-top: 32px;
@@ -177,6 +189,10 @@ Input::placeholder{
     outline: none;
 }
 
+.Home__Form{
+    position: relative;
+}
+
 .Home__Btn{
     position: absolute;
     color: #fff;
@@ -184,8 +200,8 @@ Input::placeholder{
     padding: 18px 40px;
     font-size: 16px;
     font-weight: 700;
-    left: 428px;
-    top: 445px;
+    left: 300px;
+    top: 38px;
     border-radius: 32px;
     border: none;
 }
@@ -205,7 +221,7 @@ Input::placeholder{
 
 .Home__Div--Right{
     height:100%;
-    width: 50%;
+    width: 55%;
     display: flex;
     align-items: center;
 }
@@ -230,7 +246,7 @@ Input::placeholder{
 }
 
 .Features__Div--Top{
-    height: 20%;
+    height: 30%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -261,7 +277,7 @@ Input::placeholder{
 }
 
 .Features__Div--Bottom{
-    height: 80%;
+    height: 70%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -269,9 +285,12 @@ Input::placeholder{
 }
 
 .Service--Wrapper{
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -282,7 +301,7 @@ Input::placeholder{
     max-width: 300px;
     align-items: center;
     justify-content: center;
-    margin-left: 32px;
+    margin: 0px 28px;
 }
 
 .Service-Icon{
@@ -300,8 +319,11 @@ Input::placeholder{
 
 .Service-Icon--Wrapper{
     display: flex;
-    height: 40%;
-    width: 40%;
+    margin: 0 auto;
+    height: 100%;
+    max-height: 50%;
+    width: 100%;
+    max-width: 50%;
 }
 
 .Service__Icon{
@@ -315,7 +337,7 @@ Input::placeholder{
 }
 
 .Service__Header{
-    margin-top: 64px;
+    padding-top: 64px;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 12px;
@@ -652,9 +674,10 @@ Input::placeholder{
 .Plans__Div--Top{
     display: flex;
     flex-direction: column;
-    align-items: center;
     height: 20%;
     width: 100%;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .Plans--Title{
@@ -688,10 +711,12 @@ Input::placeholder{
 
 .Plan--Wrapper{
     display: flex;
+    flex-wrap: wrap;
     height: 100%;
     width: 100%;
+    margin: 0 auto;
+    justify-content: center;
     align-items: center;
-    margin-left: 26px;
 }
 
 .Plan--Term{
@@ -713,8 +738,8 @@ Input::placeholder{
     justify-content: center;
     height: 75%;
     width: calc(100% /3);
-    max-width: 390px;
-    margin-right: 48px;
+    margin: 0px 16px;
+    max-width: 370px;
     border: 1px solid #a0aec083;
     overflow: hidden;
     border-radius: 12px;
@@ -821,8 +846,8 @@ Input::placeholder{
     justify-content: center;
     height: 75%;
     width: calc(100% /3);
-    max-width: 390px;
-    margin-right: 48px;
+    max-width: 380px;
+    margin: 0px 16px;
     border-radius: 12px;
     border: 2px solid rgb(75, 83, 191);
     background: linear-gradient(to right, rgb(79, 87, 202), rgb(94, 103, 236));
@@ -893,227 +918,6 @@ Input::placeholder{
     border: none;
     font-weight: 700;
     letter-spacing: 1px;
-}
-
-
-/*Testimonials Styles*/
-
-
-#Testimonials{
-    height: 100vh;
-    width: 100vw;
-}
-
-.Test--Title{
-    font-weight: 700;
-    color:#6415ff;
-    letter-spacing: 1px;
-}
-
-.Test__Div--Left{
-    height: 100%;
-    width: 50%;
-}
-
-.Test__Img--Mask{
-    height: 100%;
-    width: 100%;
-}
-
-.Test__Img{
-    height: 100%;
-    width: 100%;
-}
-
-.Test__Div--Right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    width: 50%;
-    padding-left: 64px;
-}
-
-.Test-Right--Top{
-    display: flex;
-    flex-direction: column;
-    height: 35%;
-    width: 100%;
-}
-
-.Test--Title{
-    color:#6415ff;
-    font-weight: 700;
-    font-size: 16px;
-    letter-spacing: 1px;
-}
-
-.Test__Header{
-    font-size: 48px;
-    font-weight: 800;
-    color:#243E63;
-    margin: 12px 0 24px 0;
-}
-
-.Test__Para{
-    font-size: 18px;
-    font-weight: 500;
-    color:#718096;
-    line-height: 28px;
-    width: 96%;
-}
-
-.Card-One{
-    display: flex;
-    flex-direction: column;
-    height: 65%;
-    width: 100%;
-}
-
-.Card-One--Top{
-    display: flex;
-    flex-direction: column;
-    height: 60%;
-    width: 100%;
-    justify-content: center;
-}
-
-.Icon-Decor{
-    display: flex;
-    align-items: center;
-    height: 10%;
-    width: 100%;
-    color: rgb(253, 166, 4);
-}
-
-.Card-One__Header{
-    font-size: 20px;
-    font-weight: 700;
-    margin: 12px 0 24px 0;
-}
-
-.Card-One__Para{
-    font-size: 16px;
-    line-height: 24px;
-    color: #4A5568;
-    font-weight: 500;
-}
-
-.Card-One--Bottom{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 40%;
-    width: 100%;
-}
-
-.Card-One--Wrap{
-    display: flex;
-    height: 70%;
-    width: 100%;
-    align-items: center;
-}
-
-.Card-One--Inner{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.Card-One--Name{
-    font-size: 20px;
-    font-weight: 600;
-    color:#1A202C;
-}
-
-.Card-One--Position{
-    font-size: 16px;
-    font-weight: 500;
-    color:#7C8BA1;
-}
-
-
-.Card-One__Img--Mask{
-    height: 70%;
-    width: 70%;
-    max-height: 80px;
-    max-width: 80px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 24px;
-}
-
-.Card-One__Img{
-    height: 100%;
-    width: 100%;
-}
-
-.Right-Arrow--Mask{
-    padding: 12px;
-    margin-left: 48px;
-    border: none;
-    background-color:#EDF2F7;
-    border-radius: 50%;
-    color:#6415ff;
-}
-
-.Left-Arrow--Mask{
-    padding: 12px;
-    border: none;
-    background-color:#EDF2F7;
-    border-radius: 50%;
-    color:#6415ff;
-}
-
-
-/*FAQs Styles*/
-
-#FAQ{
-    height: 120vh;
-    width: 100vw;
-    text-align: center;
-}
-
-.FAQ__Div--Top{
-    display: flex;
-    flex-direction: column;
-    height: 30%;
-    width: 100%;
-    align-items: center;
-}
-
-.FAQ--Title{
-    font-size: 20px;
-}
-
-.FAQ__Header{
-    font-size: 48px;
-    font-weight: 800;
-    text-align: center;
-    margin: 12px 32px;
-}
-
-.FAQ__Para{
-    font-size: 16px;
-    text-align: center;
-    width: 37%;
-    line-height: 24px;
-}
-
-
-.FAQ__Div--Bottom{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.Question--Wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 
@@ -1269,4 +1073,489 @@ footer{
     color: #fff;
     text-decoration: none;
     font-size: 28px;
+}
+
+/* Media Quiery Styles*/
+
+@media (max-width: 1280px){
+    .Home__Btn{
+            left: 284px;
+            top: 38px;
+        
+    }
+
+    .Home__Div--Left{
+        padding-left: 48px; 
+        width: 50%;
+    }
+
+    .Home__Header{
+        font-size: 38px;
+    }
+
+    .Home__Subheader{
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .Home__Div--Right{
+        padding-right: 48px;
+        width: 50%;
+    }
+
+    .Home__Img--Customer{
+        max-width: 80%;
+    }
+
+    .Service{
+        margin: 0px 28px;
+    }
+
+    .Quality__Div--Left{
+        width: 50%;
+        padding-left: 48px;
+    }
+
+    .Quality__Header{
+        font-size: 48px;
+        font-weight: 900;
+    }
+
+    .Quality__Div--Right{
+        width: 50%;
+        padding-right: 48px;
+    }
+
+    .Quality__Img--Mask{
+        height: 55%;
+    }
+
+    .Steps__Div--Left{
+        padding-left: 48px;
+    }
+
+    .Steps-Right--Top{
+        height: 30%;
+        margin-bottom: 64px;
+        justify-content: center;
+    }
+
+    .Step__Para{
+        width: 75%;
+    }
+
+    .Steps__Img--Mask{
+        height: 55%;
+    }
+
+    .Values__Div--Left{
+        padding-left: 48px;
+        width: 50%;
+    }
+
+    .Values__Header{
+        width: 90%;
+        font-weight: 900;
+        letter-spacing: 1px;
+        margin-bottom: 24px;
+    }
+
+    .Values-Left--Top{
+        height: 35%;
+    }
+
+    .Values__Para{
+        line-height: 28px;
+    }
+
+    .Values-Left--Bottom{
+        padding-top: 72px;
+    }
+
+    .Values__Btn{
+        margin-top: 4px;
+    }
+
+    .Values__Div--Right{
+        width: 50%;
+        padding-right: 48px;
+    }
+
+    .Test__Div--Left{
+        padding-left: 48px;
+    }
+
+    .Test__Div--Right{
+        padding-right: 48px;
+    }
+
+    .Dev__Div--Inner{
+        width: 90%;
+    }
+
+    .Left-Plan,
+    .Middle-Plan,
+    .Right-Plan{
+        max-width: 340px;
+    }
+
+
+    .Dev__Header{
+        padding: 0;
+        width: 35%;
+        font-size: 28px;
+    }
+
+    .Dev__Btn-One{
+        margin-left: 56px;
+    }
+
+    .Footer__Div--Top{
+        padding: 0 48px;
+    }
+
+    .Footer__Div--Bottom{
+        padding: 0 48px;
+    }
+
+}
+
+
+@media (max-width: 1200px){
+
+
+    .Row{
+        max-width: 1100px;
+    }
+
+    .Nav__Div--Container{
+        max-width: 1000px;
+    }
+    
+    .Home__Btn{
+            left: 258px;
+            top: 40px;
+            padding: 16px 32px;
+            font-size: 16px;
+        
+    }
+    .Steps__Header{
+        max-width: 75%;  
+        font-size: 44px;
+    }
+
+    .Steps-Right--Top{
+        margin-bottom: 64px;
+    }
+
+    .Values-Left--Top{
+        height: 35%;
+    }
+
+    .Values__Para{
+        line-height: 28px;
+    }
+
+    .Values__Div--Left{
+        width: 55%;
+    }
+
+    .Principle{
+        max-width: 240px;
+    }
+
+    .Principle__Para{
+        padding-left: 12px;
+    }
+
+    .Values-Left--Bottom{
+        padding-top: 72px;
+    }
+
+    .Values__Btn{
+        margin-top: 4px;
+    }
+
+    .Values__Div--Right{
+        width: 45%;
+        padding-right: 48px;
+    }
+
+    .Left-Plan,
+    .Middle-Plan,
+    .Right-Plan{
+        max-width: 330px;
+    }
+
+    .Test__Div--Left{
+        padding-left: 48px;
+    }
+
+    .Test__Div--Right{
+        width: 50%;
+    }
+
+    .Test__Header{
+        font-size: 40px;
+        margin-bottom: 4px;
+    }
+
+    .Test__Para{
+        font-size: 18px;
+    }
+
+    .Dev__Div--Inner{
+        width: 90%;
+    }
+
+    .Footer__Div--Top{
+        padding: 0 48px;
+    }
+
+    .Footer__Div--Bottom{
+        padding: 0 48px;
+    }
+
+    .Dev__Header{
+        margin: 0;
+        margin-left: 64px;
+    }
+
+    .Dev__Btn-One{
+        margin-left: 72px;
+    }
+
+}
+
+@media (max-width: 1100px){
+
+
+    .Row{
+        max-width: 1000px;
+    }
+
+    .Nav__Div--Container{
+        max-width: 900px;
+    }
+    
+    .Home__Btn{
+            left: 232px;
+            top: 42px;
+            padding: 14px 24px;
+            font-size: 16px;
+        
+    }
+
+    .Home__Header{
+        font-size: 38px;
+    }
+
+    .Features__Div--Top{
+        height: 30%;
+    }
+
+    .Features__Header{
+        font-size: 38px;
+    }
+
+    .Features__Subheader{
+        font-size: 16px;
+    }
+
+    .Features__Div--Bottom{
+        height: 70%;
+    }
+
+    .Service__Header{
+        font-size: 20px;
+        margin-top: 88px;
+    }
+
+
+    .Service__Para{
+        font-size: 14px;
+    }
+
+    .Service{
+        max-width: 240px;
+    }
+
+
+    .Nav__Link{
+        display: none;
+    }
+
+    .Nav__Link--Awkward{
+        margin-left: 20px;
+    }
+
+
+    #Features{
+        height: 130vh;
+    }
+
+    .Features__Div--Top{
+        height: 30vh;
+        padding-top: 10vh;
+    }
+
+    .Features__Header{
+        font-size: 48px;
+    }
+
+    .Features__Div--Bottom{
+        padding-top: 5vh;
+        height: 85vh;
+    }
+
+    .Service--Wrapper{
+        height: 100%;
+        justify-content: center;
+    }
+
+    .Service{
+        width: 50%;
+        max-width: 340px;
+        height: calc(100% / 3);
+    }
+
+    .Service__Header{
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .Service__Para{
+        font-size: 16px;
+        width: 100%;
+    }
+
+
+    .Steps__Div--Right{
+        padding-left: 12px;
+    }
+
+    .Steps__Header{
+        font-size: 44px;
+    }
+
+    .Values__Div--Left{
+        width: 55%;
+    }
+
+    .Values__Div--Right{
+        width: 45%;
+    }
+
+    .Values__Header{
+        font-size: 44px;
+    }
+
+    #Plans{
+        height: 320vh;
+    }
+
+    .Plans__Div--Top{
+        height: 20%;
+        max-height: 300px;
+    }
+
+    .Plans__Div--Bottom{
+        height: 80%;
+    }
+
+    .Plan--Wrapper{
+        padding: 0;
+    }
+
+    .Left-Plan,
+    .Middle-Plan,
+    .Right-Plan{
+        min-width: 360px;
+        max-height: 600px;
+        margin: 24px 96px;
+    }
+
+    .Dev__Header{
+        font-size: 32px;
+        margin: 0;
+        margin-left: 48px;
+    }
+}    
+
+
+@media (max-width: 1000px){
+    .Row{
+        flex-direction: column;
+    }
+
+    #Home{
+        height: 160vh;
+    }
+
+    .Home__Div--Left{
+        height: 50%;
+        width: 80%;
+        align-items: center;
+    }
+
+    .Home__Header{
+        text-align: center;
+    }
+
+    .Home__Subheader{
+        max-width: 85%;
+        text-align: center;
+    }
+
+    .Home__Btn{
+        left: 450px;
+        top: 40px;
+        padding: 16px 32px;
+    }
+
+    .Home__Form{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .Home--Subscript{
+        font-size: 16px;
+    }
+
+    .Home__Img--Customer{
+        margin: 0 0 0 72px;
+    }
+
+    .Home__Div--Right{
+        height: 50%;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .Home__Img--Mask{
+        height: 70%;
+        width: 70%;
+    }
+
+    .Home__Img{
+        margin: 0 0 0 48px;
+    }
+}
+
+@media (max-width: 980px){
+    .Row{
+        max-width: 880px;
+    }
+
+    .Home__Btn{
+        left: 379px;
+        top: 40px;
+        padding: 16px 32px;
+    }
+
+    .Values__Para{
+        font-size: 16px;
+    }
 }
